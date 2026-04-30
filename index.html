@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Ahmed Qazafy Ibrahim - cybersecurity portfolio, homelab notes, security tools, courses, and curated resources."
+      content="Ahmed Qazafy Ibrahim - security engineer focused on SOC work, OT/ICS security, vulnerability research, and defensive tooling."
     />
     <meta name="theme-color" content="#05070d" />
-    <title>Ahmed Qazafy Ibrahim | Cybersecurity Portfolio</title>
+    <title>Ahmed Qazafy Ibrahim | Security Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,11 +31,11 @@
         <span></span>
       </button>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#proof">Proof</a>
+        <a href="#profile">Profile</a>
         <a href="#projects">Projects</a>
+        <a href="#labs">Labs</a>
         <a href="#writeups">Writeups</a>
         <a href="#courses">Courses</a>
-        <a href="#store">Store</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -44,163 +44,206 @@
       <section class="hero section-shell" aria-labelledby="hero-title">
         <div class="hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">Cybersecurity Practitioner / Builder / Homelab Operator</p>
+            <p class="eyebrow">Security Engineer / SOC Analyst / OT-ICS Security</p>
             <h1 id="hero-title">Ahmed Qazafy Ibrahim</h1>
             <p class="hero-lede">
-              I build security tools, document practical research, run a hands-on homelab, and turn
-              hard-earned cybersecurity work into clear technical evidence.
+              I work on defensive security, vulnerability research, industrial control systems, and
+              practical tooling. This site is a public record of projects, labs, writeups, and
+              course material as they mature.
             </p>
             <div class="hero-actions">
-              <a class="button primary" href="#projects">View Work</a>
-              <a class="button ghost" href="#contact">Connect</a>
+              <a class="button primary" href="#projects">Review Projects</a>
+              <a class="button ghost" href="https://github.com/AhmedQazafy" target="_blank" rel="noreferrer"
+                >GitHub</a
+              >
             </div>
           </div>
 
-          <div class="terminal-panel" aria-label="Cybersecurity terminal profile">
-            <div class="terminal-top">
-              <span></span>
-              <span></span>
-              <span></span>
+          <aside class="profile-panel" aria-label="Ahmed Qazafy Ibrahim profile summary">
+            <img src="assets/ahmed-qazafy.jpeg" alt="Ahmed Qazafy Ibrahim" />
+            <div class="profile-panel-body">
+              <p class="profile-name">Ahmed Qazafy Ibrahim</p>
+              <p>Riyadh, Saudi Arabia</p>
+              <p>CompTIA Security+ CE</p>
+              <p>Arabic native / English fluent</p>
             </div>
-            <div class="terminal-body">
-              <p><span class="prompt">ahmed@orbit</span>:~$ whoami</p>
-              <p class="output">security researcher in progress</p>
-              <p><span class="prompt">ahmed@orbit</span>:~$ focus --current</p>
-              <p class="output">web security / bug bounty / linux / automation / homelab</p>
-              <p><span class="prompt">ahmed@orbit</span>:~$ status</p>
-              <p class="output success">building public proof of work</p>
-            </div>
-          </div>
+          </aside>
         </div>
 
-        <div class="signal-strip" aria-label="Professional focus areas">
+        <div class="signal-strip" aria-label="Security focus areas">
+          <span>SOC</span>
+          <span>OT/ICS</span>
+          <span>SIEM</span>
+          <span>DFIR</span>
           <span>Web Security</span>
-          <span>Bug Bounty</span>
           <span>Linux</span>
-          <span>Homelab</span>
-          <span>Tooling</span>
-          <span>Courses</span>
         </div>
       </section>
 
-      <section id="proof" class="section-shell proof-band" aria-labelledby="proof-title">
+      <section id="profile" class="section-shell proof-band" aria-labelledby="profile-title">
         <div class="section-heading">
-          <p class="eyebrow">Signal Over Noise</p>
-          <h2 id="proof-title">Built to prove capability, not just list it.</h2>
+          <p class="eyebrow">Profile</p>
+          <h2 id="profile-title">Security work with systems context.</h2>
         </div>
         <div class="proof-grid">
           <article>
             <span class="metric">01</span>
-            <h3>Technical Work</h3>
-            <p>Tools, scripts, labs, and reproducible notes that show practical security thinking.</p>
+            <h3>Operations</h3>
+            <p>SIEM, IDS/IPS, log analysis, incident response practice, endpoint visibility, and network defense.</p>
           </article>
           <article>
             <span class="metric">02</span>
-            <h3>Research Notes</h3>
-            <p>Writeups that explain methodology, tradeoffs, findings, and lessons learned.</p>
+            <h3>OT/ICS</h3>
+            <p>OpenPLC, Modbus TCP, passive monitoring, Purdue-model lab design, and industrial network risk.</p>
           </article>
           <article>
             <span class="metric">03</span>
-            <h3>Commercial Path</h3>
-            <p>Course and product pages designed for flexible payment providers and regional reach.</p>
+            <h3>Research</h3>
+            <p>Authentication testing, session behavior, business logic flaws, input validation, and disclosure discipline.</p>
           </article>
         </div>
       </section>
 
       <section id="projects" class="section-shell split-section" aria-labelledby="projects-title">
         <div class="section-heading sticky-heading">
-          <p class="eyebrow">Proof Of Work</p>
-          <h2 id="projects-title">Projects and lab builds.</h2>
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">Tools and systems.</h2>
           <p>
-            A curated place for security tooling, Linux workflows, automation, and homelab
-            experiments.
+            Projects here are selected for engineering value: clear scope, reproducible behavior,
+            and security relevance.
           </p>
         </div>
         <div class="card-grid">
           <article class="work-card">
-            <p class="card-kicker">Homelab</p>
-            <h3>Security Operations Lab</h3>
+            <p class="card-kicker">OT/ICS Tooling</p>
+            <h3>Scrutics</h3>
             <p>
-              Documenting network segmentation, logging, monitoring, vulnerable targets, and attack
-              simulation workflows.
+              Passive OT/ICS asset discovery and classification. Designed to observe network traffic
+              without active probing, with protocol classification and asset inventory output.
             </p>
-            <span class="status">Planned writeup</span>
+            <a class="text-link" href="https://github.com/AhmedQazafy/Scrutics" target="_blank" rel="noreferrer"
+              >Repository</a
+            >
           </article>
           <article class="work-card">
-            <p class="card-kicker">Tooling</p>
-            <h3>Recon And Automation Toolkit</h3>
+            <p class="card-kicker">Embedded / ML</p>
+            <h3>Intelligent Driving System</h3>
             <p>
-              A future collection of scripts and notes for repeatable reconnaissance and reporting.
+              Raspberry Pi based driver-state monitoring using computer vision, alert escalation,
+              GPS/GSM emergency handling, and Firebase logging.
             </p>
-            <span class="status">In progress</span>
+            <a
+              class="text-link"
+              href="https://github.com/AhmedQazafy/Intelligent-Driving-System-IDS"
+              target="_blank"
+              rel="noreferrer"
+              >Repository</a
+            >
           </article>
           <article class="work-card">
-            <p class="card-kicker">Linux</p>
-            <h3>Custom Security Workstation</h3>
+            <p class="card-kicker">Web Security</p>
+            <h3>Responsible Disclosure Work</h3>
             <p>
-              Arch-inspired workflow, terminal setup, security utilities, dotfiles, and productivity
-              notes.
+              Ongoing vulnerability research on authentication, session management, business logic,
+              and input validation across authorized targets.
             </p>
-            <span class="status">Drafting</span>
+            <span class="status">Publication restricted where required</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="labs" class="section-shell split-section" aria-labelledby="labs-title">
+        <div class="section-heading sticky-heading">
+          <p class="eyebrow">Labs</p>
+          <h2 id="labs-title">Controlled environments.</h2>
+          <p>
+            Lab work is used to test assumptions, validate detection behavior, and document security
+            architecture without touching production systems.
+          </p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span>Maintained</span>
+            <h3>Home Security Lab</h3>
+            <p>
+              Multi-segment enterprise simulation with pfSense, Suricata, Active Directory, Kali,
+              vulnerable targets, and Wazuh telemetry.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <span>In Progress</span>
+            <h3>OT/ICS Security Lab</h3>
+            <p>
+              Purdue-model environment using OpenPLC and ScadaBR over Modbus TCP, with passive
+              monitoring through Security Onion.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <span>Applied</span>
+            <h3>Small Office Security Hardening</h3>
+            <p>
+              OpenWrt firewalling, segmented access, Wazuh monitoring, safer document handling, and
+              secure web form controls for a low-budget office environment.
+            </p>
           </article>
         </div>
       </section>
 
       <section id="writeups" class="section-shell split-section" aria-labelledby="writeups-title">
         <div class="section-heading sticky-heading">
-          <p class="eyebrow">Research Log</p>
-          <h2 id="writeups-title">Writeups with methodology.</h2>
+          <p class="eyebrow">Writeups</p>
+          <h2 id="writeups-title">Notes after validation.</h2>
           <p>
-            Public notes will focus on what was tested, how it was reasoned about, and what changed
-            after the lesson.
+            Writeups will focus on method, environment, evidence, and remediation. Sensitive reports
+            stay private when program rules or vendor agreements require it.
           </p>
         </div>
         <div class="timeline">
           <article class="timeline-item">
-            <span>Coming Soon</span>
-            <h3>Bug bounty findings after responsible disclosure</h3>
-            <p>Reports will be published only when disclosure rules allow it.</p>
+            <span>Planned</span>
+            <h3>Scrutics design notes</h3>
+            <p>Passive-only discovery, packet capture boundaries, protocol classification, and asset confidence scoring.</p>
           </article>
           <article class="timeline-item">
-            <span>Draft Topic</span>
-            <h3>Building a practical web security lab</h3>
-            <p>Environment setup, targets, logs, proxying, and repeatable testing flow.</p>
+            <span>Planned</span>
+            <h3>OT lab detection notes</h3>
+            <p>Modbus write behavior, passive monitoring, alert logic, and limits of lab fidelity.</p>
           </article>
           <article class="timeline-item">
-            <span>Draft Topic</span>
-            <h3>From course notes to original research</h3>
-            <p>How to turn learning material into your own test cases and documented practice.</p>
+            <span>Restricted</span>
+            <h3>Bug bounty reports</h3>
+            <p>Published only after disclosure terms allow it, with sensitive details removed.</p>
           </article>
         </div>
       </section>
 
       <section id="courses" class="section-shell commerce-section" aria-labelledby="courses-title">
         <div class="section-heading">
-          <p class="eyebrow">Courses</p>
-          <h2 id="courses-title">Cybersecurity courses by Ahmed.</h2>
+          <p class="eyebrow">Courses And Resources</p>
+          <h2 id="courses-title">Material will ship when it is tested.</h2>
           <p>
-            Course pages are prepared for external checkout links so payment providers can change
-            without rebuilding the site.
+            Course pages are kept separate from payment processing. Checkout and regional currency
+            support can be handled by a provider without adding card handling to this site.
           </p>
         </div>
         <div class="commerce-grid">
           <article class="commerce-card featured">
-            <span class="tag">Future Course</span>
+            <span class="tag">Draft</span>
             <h3>Practical Web Security Foundations</h3>
             <p>
-              A hands-on course path for HTTP, Burp Suite, authentication flaws, access control,
-              recon, and reporting.
+              HTTP, Burp Suite, authentication, access control, recon workflow, reporting, and lab
+              structure.
             </p>
-            <a class="text-link" href="#contact">Notify me</a>
+            <a class="text-link" href="#contact">Contact</a>
           </article>
           <article class="commerce-card">
-            <span class="tag">Future Course</span>
+            <span class="tag">Draft</span>
             <h3>Homelab For Security Engineers</h3>
             <p>
-              Build a lab that teaches networking, logs, detection, offensive testing, and disciplined
-              documentation.
+              Network segmentation, logging, vulnerable targets, Windows identity, SIEM telemetry,
+              and attack simulation.
             </p>
-            <a class="text-link" href="#contact">Ask about it</a>
+            <a class="text-link" href="#contact">Contact</a>
           </article>
         </div>
       </section>
@@ -208,35 +251,34 @@
       <section id="store" class="section-shell commerce-section" aria-labelledby="store-title">
         <div class="section-heading">
           <p class="eyebrow">Store</p>
-          <h2 id="store-title">Curated products and digital resources.</h2>
+          <h2 id="store-title">Curated tools and digital resources.</h2>
           <p>
-            The store starts as a trust-based recommendation layer, then can expand into templates,
-            notes, and original products.
+            This section is reserved for tested recommendations, lab templates, and original digital
+            products. No direct payment processing is implemented in the static site.
           </p>
         </div>
         <div class="store-list">
           <a href="#contact">
             <span>Lab Gear</span>
-            <strong>Routers, mini PCs, storage, and networking essentials</strong>
+            <strong>Routers, mini PCs, storage, and networking equipment with clear use cases</strong>
           </a>
           <a href="#contact">
-            <span>Security Books</span>
-            <strong>Recommended reading with honest notes and use cases</strong>
+            <span>References</span>
+            <strong>Books, courses, and documentation that hold up under practical use</strong>
           </a>
           <a href="#contact">
-            <span>Digital Products</span>
-            <strong>Future checklists, lab templates, and study systems</strong>
+            <span>Digital</span>
+            <strong>Future checklists, lab plans, templates, and course material</strong>
           </a>
         </div>
       </section>
 
       <section id="contact" class="section-shell contact-section" aria-labelledby="contact-title">
         <div>
-          <p class="eyebrow">Open Channel</p>
-          <h2 id="contact-title">Connect with Ahmed.</h2>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Professional links.</h2>
           <p>
-            I am building in public, documenting cybersecurity practice, and looking for serious
-            security opportunities.
+            Available for SOC analyst, security engineer, and OT/ICS security opportunities.
           </p>
         </div>
         <div class="contact-links">
@@ -256,7 +298,7 @@
 
     <footer class="site-footer">
       <p>Ahmed Qazafy Ibrahim</p>
-      <p>Static-first cybersecurity portfolio. Built for low-cost hosting and flexible commerce.</p>
+      <p>Security engineering, OT/ICS, SOC operations, and applied research.</p>
     </footer>
 
     <script src="app.js"></script>
