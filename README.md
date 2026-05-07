@@ -1,6 +1,6 @@
 # AhmedQazafy.github.io
 
-Personal website for Ahmed Qazafy Ibrahim, focused on security engineering, SOC work, OT/ICS security, vulnerability research, homelab documentation, and future course/resource pages.
+Personal website for Ahmed Qazafy Ibrahim, focused on security engineering, SOC work, OT/ICS security, vulnerability research, public projects, and technical writeups.
 
 ![Static site](https://img.shields.io/badge/site-static-55e7ff)
 ![GitHub Pages](https://img.shields.io/badge/deploy-GitHub%20Pages-a7ff6a)
@@ -16,10 +16,7 @@ This repository is intentionally small: a static website with no build step and 
 | --- | --- |
 | Profile | Security focus, certifications, and operating areas |
 | Projects | Public tools and engineering projects |
-| Labs | Homelab, OT/ICS lab, and applied security environments |
 | Writeups | Research notes and disclosure-safe technical posts |
-| Courses | Future original cybersecurity courses |
-| Store | Future curated resources and digital products |
 | Contact | Public professional links |
 
 ## Current Project Signals
@@ -28,6 +25,7 @@ This repository is intentionally small: a static website with no build step and 
 - `Intelligent Driving System` - embedded driver-state monitoring with computer vision, GPS/GSM response, and Firebase logging.
 - `Home Security Lab` - segmented enterprise-style lab using pfSense, Suricata, Active Directory, Kali, vulnerable targets, and Wazuh.
 - `OT/ICS Security Lab` - OpenPLC, ScadaBR, Modbus TCP, and passive monitoring concepts.
+- `Responsible Disclosure` - methodology-driven research on authentication and business logic flaws in authorized environments.
 
 ## Architecture
 
@@ -37,7 +35,6 @@ flowchart LR
   B["CSS Theme"] --> D
   C["Client JS"] --> D
   E["Markdown Templates"] --> F["Future Writeups"]
-  G["External Checkout"] --> H["Courses / Store"]
 ```
 
 ## File Structure

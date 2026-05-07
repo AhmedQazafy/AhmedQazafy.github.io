@@ -33,9 +33,7 @@
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#profile">Profile</a>
         <a href="#projects">Projects</a>
-        <a href="#labs">Labs</a>
         <a href="#writeups">Writeups</a>
-        <a href="#courses">Courses</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -48,7 +46,7 @@
             <h1 id="hero-title">Ahmed Qazafy Ibrahim</h1>
             <p class="hero-lede">
               I work on defensive security, vulnerability research, industrial control systems, and
-              practical tooling. This site is a public record of projects, labs, writeups, and
+              practical tooling. This site is a public record of projects, writeups, and
               course material as they mature.
             </p>
             <div class="hero-actions">
@@ -83,23 +81,35 @@
       <section id="profile" class="section-shell proof-band" aria-labelledby="profile-title">
         <div class="section-heading">
           <p class="eyebrow">Profile</p>
-          <h2 id="profile-title">Security work with systems context.</h2>
+          <h2 id="profile-title">Bridging Systems Engineering with Defensive Security.</h2>
         </div>
         <div class="proof-grid">
           <article>
             <span class="metric">01</span>
-            <h3>Operations</h3>
-            <p>SIEM, IDS/IPS, log analysis, incident response practice, endpoint visibility, and network defense.</p>
+            <h3>Security Operations (SOC)</h3>
+            <p>
+              Specializing in SIEM/EDR orchestration and log forensics. Proven experience in
+              hardening infrastructure, deploying Wazuh-based visibility, and managing multi-segment
+              enterprise labs.
+            </p>
           </article>
           <article>
             <span class="metric">02</span>
             <h3>OT/ICS</h3>
-            <p>OpenPLC, Modbus TCP, passive monitoring, Purdue-model lab design, and industrial network risk.</p>
+            <p>
+              Securing legacy industrial protocols through modern security baselines. Developer of
+              Scrutics, an open-source tool for passive OT asset discovery and behavioral baselining
+              in brownfield environments.
+            </p>
           </article>
           <article>
             <span class="metric">03</span>
             <h3>Research</h3>
-            <p>Authentication testing, session behavior, business logic flaws, input validation, and disclosure discipline.</p>
+            <p>
+              Methodology-driven offensive research focused on business logic and authentication
+              flows. Experienced in identifying and responsibly disclosing high-impact security gaps
+              in US-facing healthcare SaaS environments.
+            </p>
           </article>
         </div>
       </section>
@@ -152,124 +162,41 @@
         </div>
       </section>
 
-      <section id="labs" class="section-shell split-section" aria-labelledby="labs-title">
-        <div class="section-heading sticky-heading">
-          <p class="eyebrow">Labs</p>
-          <h2 id="labs-title">Controlled environments.</h2>
-          <p>
-            Lab work is used to test assumptions, validate detection behavior, and document security
-            architecture without touching production systems.
-          </p>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <span>Maintained</span>
-            <h3>Home Security Lab</h3>
-            <p>
-              Multi-segment enterprise simulation with pfSense, Suricata, Active Directory, Kali,
-              vulnerable targets, and Wazuh telemetry.
-            </p>
-          </article>
-          <article class="timeline-item">
-            <span>In Progress</span>
-            <h3>OT/ICS Security Lab</h3>
-            <p>
-              Purdue-model environment using OpenPLC and ScadaBR over Modbus TCP, with passive
-              monitoring through Security Onion.
-            </p>
-          </article>
-          <article class="timeline-item">
-            <span>Applied</span>
-            <h3>Small Office Security Hardening</h3>
-            <p>
-              OpenWrt firewalling, segmented access, Wazuh monitoring, safer document handling, and
-              secure web form controls for a low-budget office environment.
-            </p>
-          </article>
-        </div>
-      </section>
-
       <section id="writeups" class="section-shell split-section" aria-labelledby="writeups-title">
         <div class="section-heading sticky-heading">
           <p class="eyebrow">Writeups</p>
-          <h2 id="writeups-title">Notes after validation.</h2>
+          <h2 id="writeups-title">Published notes and upcoming research.</h2>
           <p>
-            Writeups will focus on method, environment, evidence, and remediation. Sensitive reports
-            stay private when program rules or vendor agreements require it.
+            Public material will stay concise and evidence-based. Sensitive reports remain private
+            when disclosure terms require it.
           </p>
         </div>
         <div class="timeline">
           <article class="timeline-item">
-            <span>Planned</span>
-            <h3>Scrutics design notes</h3>
-            <p>Passive-only discovery, packet capture boundaries, protocol classification, and asset confidence scoring.</p>
+            <span>Published</span>
+            <h3>Intelligent Driving System project book</h3>
+            <p>
+              Full documentation for the embedded driver-state monitoring system, including system
+              design, implementation, and test methodology.
+            </p>
+            <a
+              class="text-link"
+              href="https://github.com/AhmedQazafy/Intelligent-Driving-System-IDS/blob/main/docs/IDS_Book.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Read writeup</a
+            >
           </article>
           <article class="timeline-item">
-            <span>Planned</span>
-            <h3>OT lab detection notes</h3>
-            <p>Modbus write behavior, passive monitoring, alert logic, and limits of lab fidelity.</p>
+            <span>Coming Soon</span>
+            <h3>Scrutics technical notes</h3>
+            <p>Passive OT discovery, classification logic, and brownfield deployment assumptions.</p>
           </article>
           <article class="timeline-item">
-            <span>Restricted</span>
-            <h3>Bug bounty reports</h3>
-            <p>Published only after disclosure terms allow it, with sensitive details removed.</p>
+            <span>Coming Soon</span>
+            <h3>Security lab notes</h3>
+            <p>Detection engineering, SIEM workflows, and controlled enterprise lab scenarios.</p>
           </article>
-        </div>
-      </section>
-
-      <section id="courses" class="section-shell commerce-section" aria-labelledby="courses-title">
-        <div class="section-heading">
-          <p class="eyebrow">Courses And Resources</p>
-          <h2 id="courses-title">Material will ship when it is tested.</h2>
-          <p>
-            Course pages are kept separate from payment processing. Checkout and regional currency
-            support can be handled by a provider without adding card handling to this site.
-          </p>
-        </div>
-        <div class="commerce-grid">
-          <article class="commerce-card featured">
-            <span class="tag">Draft</span>
-            <h3>Practical Web Security Foundations</h3>
-            <p>
-              HTTP, Burp Suite, authentication, access control, recon workflow, reporting, and lab
-              structure.
-            </p>
-            <a class="text-link" href="#contact">Contact</a>
-          </article>
-          <article class="commerce-card">
-            <span class="tag">Draft</span>
-            <h3>Homelab For Security Engineers</h3>
-            <p>
-              Network segmentation, logging, vulnerable targets, Windows identity, SIEM telemetry,
-              and attack simulation.
-            </p>
-            <a class="text-link" href="#contact">Contact</a>
-          </article>
-        </div>
-      </section>
-
-      <section id="store" class="section-shell commerce-section" aria-labelledby="store-title">
-        <div class="section-heading">
-          <p class="eyebrow">Store</p>
-          <h2 id="store-title">Curated tools and digital resources.</h2>
-          <p>
-            This section is reserved for tested recommendations, lab templates, and original digital
-            products. No direct payment processing is implemented in the static site.
-          </p>
-        </div>
-        <div class="store-list">
-          <a href="#contact">
-            <span>Lab Gear</span>
-            <strong>Routers, mini PCs, storage, and networking equipment with clear use cases</strong>
-          </a>
-          <a href="#contact">
-            <span>References</span>
-            <strong>Books, courses, and documentation that hold up under practical use</strong>
-          </a>
-          <a href="#contact">
-            <span>Digital</span>
-            <strong>Future checklists, lab plans, templates, and course material</strong>
-          </a>
         </div>
       </section>
 
