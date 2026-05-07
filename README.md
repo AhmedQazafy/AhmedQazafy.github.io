@@ -25,7 +25,6 @@ This repository is intentionally small: a static website with no build step and 
 - `Intelligent Driving System` - embedded driver-state monitoring with computer vision, GPS/GSM response, and Firebase logging.
 - `Home Security Lab` - segmented enterprise-style lab using pfSense, Suricata, Active Directory, Kali, vulnerable targets, and Wazuh.
 - `OT/ICS Security Lab` - OpenPLC, ScadaBR, Modbus TCP, and passive monitoring concepts.
-- `Responsible Disclosure` - methodology-driven research on authentication and business logic flaws in authorized environments.
 
 ## Architecture
 
@@ -60,7 +59,6 @@ flowchart LR
 - The site does not store student records.
 - No API keys or secrets belong in this repository.
 - Course and product checkout should be handled by an external provider.
-- Bug bounty material should only be published when disclosure terms allow it.
 
 ## Local Preview
 
