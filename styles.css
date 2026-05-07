@@ -160,7 +160,7 @@ p {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 240px);
   gap: 46px;
   align-items: center;
 }
@@ -183,8 +183,8 @@ h3 {
 }
 
 h1 {
-  max-width: 920px;
-  font-size: clamp(4.1rem, 10vw, 8.3rem);
+  max-width: 520px;
+  font-size: clamp(2.05rem, 5vw, 4.15rem);
   letter-spacing: 0;
 }
 
@@ -236,9 +236,9 @@ h3 {
 .profile-panel {
   position: relative;
   overflow: hidden;
-  width: min(100%, 360px);
+  width: min(100%, 234px);
   justify-self: end;
-  padding: 14px;
+  padding: 10px;
   border: 1px solid rgba(85, 231, 255, 0.28);
   border-radius: 8px;
   background:
@@ -263,7 +263,7 @@ h3 {
 .profile-panel img {
   display: block;
   width: 100%;
-  max-height: 430px;
+  max-height: 280px;
   aspect-ratio: 4 / 5;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 6px;
@@ -277,8 +277,8 @@ h3 {
 
 .profile-panel-body {
   display: grid;
-  gap: 10px;
-  padding: 18px 6px 4px;
+  gap: 8px;
+  padding: 14px 4px 3px;
 }
 
 .profile-panel-body p {
@@ -292,7 +292,7 @@ h3 {
 .profile-panel-body .profile-name {
   color: var(--text);
   font-family: var(--sans);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 800;
 }
 
@@ -647,7 +647,7 @@ h3 {
 
   .profile-panel {
     justify-self: start;
-    width: min(100%, 340px);
+    width: min(100%, 240px);
   }
 
   .sticky-heading {
@@ -686,7 +686,7 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(3.2rem, 18vw, 5rem);
+    font-size: clamp(2.35rem, 13vw, 3.2rem);
   }
 
   .terminal-body,
